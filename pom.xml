@@ -39,7 +39,7 @@
 		<maven.rpm.version>2.1-alpha-3</maven.rpm.version>
 		<surefire.forkcount>1C</surefire.forkcount>
 
-		<cdk.version>0.9.1-SNAPSHOT</cdk.version>
+		<kite.version>0.14.1</kite.version>
 
 		<rpm.root.dir>/usr/lib/flume-ng/plugins.d/tango-morphlines</rpm.root.dir>
 
@@ -167,9 +167,9 @@
 	<dependencies>
 		<!-- Modules -->
 		<dependency>
-			<groupId>com.cloudera.cdk</groupId>
-			<artifactId>cdk-morphlines-all</artifactId>
-			<version>${cdk.version}</version>
+			<groupId>org.kitesdk</groupId>
+			<artifactId>kite-morphlines-all</artifactId>
+			<version>${kite.version}</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.apache.hadoop</groupId>

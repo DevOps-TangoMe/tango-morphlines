@@ -18,12 +18,13 @@ package com.tango.morphlines;
 import java.util.Collection;
 import java.util.Collections;
 
-import com.cloudera.cdk.morphline.api.Command;
-import com.cloudera.cdk.morphline.api.CommandBuilder;
-import com.cloudera.cdk.morphline.api.MorphlineContext;
-import com.cloudera.cdk.morphline.api.Record;
-import com.cloudera.cdk.morphline.base.AbstractCommand;
-import com.cloudera.cdk.morphline.base.Fields;
+import org.kitesdk.morphline.api.Command;
+import org.kitesdk.morphline.api.CommandBuilder;
+import org.kitesdk.morphline.api.MorphlineContext;
+import org.kitesdk.morphline.api.Record;
+import org.kitesdk.morphline.base.AbstractCommand;
+import org.kitesdk.morphline.base.Fields;
+
 import com.typesafe.config.Config;
 
 /**
